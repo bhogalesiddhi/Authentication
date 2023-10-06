@@ -1,0 +1,14 @@
+.userInformation{
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.infoKey{
+    margin-right: 15px;
+}
