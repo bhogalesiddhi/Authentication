@@ -12,7 +12,7 @@ const Profile = () => {
 
   const callProfile = async () => {
     try{
-      const res =  await axios.get("http://localhost:8080/api/users/profile")
+      const res =  await axios.get("http://localhost:5000/api/users/profile")
       const data =  res.data
       setAuth(true)
       console.log(data)

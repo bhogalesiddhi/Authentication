@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken")
 
-mongoose.connect("mongodb://127.0.0.1:27017/self_testing").then(()=> {
+mongoose.connect("mongodb+srv://balotiyanilesh27:Nilesh27@cluster0.wsp3yfp.mongodb.net/?retryWrites=true&w=majority").then(()=> {
     console.log("Mongodb connected")
 })
 .catch((e)=>{
